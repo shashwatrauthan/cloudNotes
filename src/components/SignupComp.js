@@ -23,7 +23,7 @@ export default function SignupComp(props) {
         }
 
         // Api Call
-        let url = `http://localhost:5000/api/auth/createuser`;
+        let url = `https://cloud-notes-backend1.vercel.app/api/auth/createuser`;
         let params = {
             method: 'POST',
             headers: {
