@@ -15,7 +15,7 @@ export default function LoginComp(props) {
         e.preventDefault();
 
         // Api Call
-        let url = `http://localhost:5000/api/auth/login`;
+        let url = `https://cloud-notes-backend1.vercel.app/api/auth/login`;
         let params = {
             method: 'POST',
             headers: {
